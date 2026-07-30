@@ -96,9 +96,6 @@ void main() {
         print("-x >>> y : $rightShiftUnsignedResult");
 
   // Operator Penugasan
-        int p = 5;
-        int q = 7;
-
         // ??== Berikan nilai jika null
         var nullValue;
         nullValue ??= 10;
@@ -115,8 +112,28 @@ void main() {
         var isTrue = true;
         var isFalse = false;
         print("isTrue && isFalse: ${isTrue && isFalse}"); // false
+        // ignore: dead_code
         print("isTrue || isFalse: ${isTrue || isFalse}"); // true
         print("!isTrue: ${!isTrue}"); // false
   
-  
+  // Operator Bersyarat
+        var result = (a > b) ? "a is greater than b" : "a is not greater than b";
+        print(result);
+
+  // Operator Cascade
+        Person person = Person()
+          ..name = "John Doe"
+          ..age = 30
+          ..display();
+
+}
+
+class Person {
+  String? name;
+  int? age;
+
+  void display() {
+    print("Name: $name");
+    print("Age: $age");
+  }
 }
