@@ -106,4 +106,17 @@ void main() {
 
         nullValue ??= 20;
         print("nullValue ??= 20 : $nullValue");
+
+  // Operator Penugasan Gabungan
+  // +=, -=, *=, /=, ~/=, %=, &=, |=, ^=, <<=, >>=, >>>=
+
+  // Operator Logika
+  // &&, ||, !
+        var isTrue = true;
+        var isFalse = false;
+        print("isTrue && isFalse: ${isTrue && isFalse}"); // false
+        print("isTrue || isFalse: ${isTrue || isFalse}"); // true
+        print("!isTrue: ${!isTrue}"); // false
+  
+  
 }
