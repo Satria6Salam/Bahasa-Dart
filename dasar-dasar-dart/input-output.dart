@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main() {
+  // stdout: 
   stdout.write("Masukkan nama Anda: ");
   // stdin: standar input (alur masuk data utama melalui keyboard)
   // readLine: membaca satu baris teks penuh sampai menekan tombol enter

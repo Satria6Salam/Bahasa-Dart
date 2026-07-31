@@ -121,6 +121,7 @@ void main() {
         print(result);
 
   // Operator Cascade
+        // ignore: unused_local_variable
         Person person = Person()
           ..name = "John Doe"
           ..age = 30
